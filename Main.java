@@ -75,7 +75,7 @@ public class  Main {
     }
     public static PlayerAction getClimbAction() {
         Random random = new Random();
-        ClimbAction climbAction = new ClimbAction(random.nextInt(RACETRACK_DISTANCE ));
+        ClimbAction climbAction = new ClimbAction(random.nextInt(ROPE_DISTANCE));
         return climbAction;
     }
 }
